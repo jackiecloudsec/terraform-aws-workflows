@@ -1,0 +1,10 @@
+prefix         = "compliance"
+s3_bucket_name = "myorg-config-history"
+alert_emails   = ["security-team@example.com"]
+
+enable_all_rules = true
+
+tags = {
+  Environment = "production"
+  Team        = "security"
+}

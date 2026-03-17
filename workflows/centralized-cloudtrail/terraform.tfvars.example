@@ -1,0 +1,9 @@
+prefix         = "central"
+s3_bucket_name = "myorg-cloudtrail-logs"
+multi_region   = true
+alert_emails   = ["security-team@example.com"]
+
+tags = {
+  Environment = "production"
+  Team        = "security"
+}

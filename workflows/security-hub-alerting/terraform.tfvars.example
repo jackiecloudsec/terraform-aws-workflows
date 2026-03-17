@@ -1,0 +1,13 @@
+prefix       = "security"
+alert_emails = ["security-team@example.com"]
+
+severity_labels         = ["CRITICAL", "HIGH"]
+enable_aws_foundational = true
+enable_cis_benchmark    = true
+enable_nist_framework   = false
+archive_findings        = true
+
+tags = {
+  Environment = "production"
+  Team        = "security"
+}

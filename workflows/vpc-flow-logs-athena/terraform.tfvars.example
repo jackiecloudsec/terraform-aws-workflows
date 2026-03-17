@@ -1,0 +1,8 @@
+prefix         = "network"
+vpc_ids        = ["vpc-0abc123def456", "vpc-0def789abc012"]
+s3_bucket_name = "myorg-vpc-flow-logs"
+
+tags = {
+  Environment = "production"
+  Team        = "network-security"
+}

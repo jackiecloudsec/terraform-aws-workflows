@@ -1,0 +1,13 @@
+prefix       = "security"
+alert_emails = ["security-team@example.com"]
+min_severity = 7
+
+enable_s3_protection    = true
+enable_eks_protection   = true
+enable_malware_protection = false
+archive_findings        = true
+
+tags = {
+  Environment = "production"
+  Team        = "security"
+}
